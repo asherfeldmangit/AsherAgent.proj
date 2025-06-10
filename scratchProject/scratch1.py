@@ -14,7 +14,7 @@ request = "Please come up with a challenging, nuanced question that I can ask a 
 request += "Answer only with the question, no explanation."
 messages = [{"role": "user", "content": request}]
 
-response = openai.chat.completions.create(
+response = openai.chat.completions.create(  
     model="gpt-4.1-mini",
     messages=messages
 )

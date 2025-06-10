@@ -1,0 +1,852 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Draugr",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-tokens-bestiaries/tokens/undead/skeletal/draugr.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": "modules/pf2e-tokens-bestiaries/subjects/undead/skeletal/draugr.webp"
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": true,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "modules/pf2e-tokens-bestiaries/portraits/undead/skeletal/draugr.webp",
+  "items": [
+    {
+      "_id": "U1UzVv3fhtAVKJuL",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/weapons/axes/axe-double-engraved.webp",
+      "name": "Greataxe",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This large battle axe is too heavy to wield with only one hand. Many greataxes incorporate two blades, and they are often \"bearded,\" having a hook at the bottom to increase the strength of their chopping power.</p>"
+        },
+        "rules": [],
+        "slug": "greataxe",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "sweep"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "greataxe",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 2
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "axe",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d12",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "2xMdIPmW8TyntFSY",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
+      "name": "Leather Armor",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.</p>"
+        },
+        "rules": [],
+        "slug": "leather-armor",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "leather-armor",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": "leather",
+        "acBonus": 1,
+        "strength": 0,
+        "dexCap": 4,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "hzr2Jl7pTcCFNWlF",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "U1UzVv3fhtAVKJuL"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Greataxe",
+      "sort": 300000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grotesque-gift"
+          ]
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d12+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "sweep"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null
+    },
+    {
+      "_id": "S3MoMWkoEovX2zha",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 400000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grotesque-gift"
+          ]
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "unarmed"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "h0VU0sBf5jz6KCu1",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "The Sea's Revenge",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>A creature that slays a draugr is subjected to a @UUID[Compendium.pf2e.spells-srd.Item.z2mfh3oPnfYqXflY]{Mariner's Curse} spell with a @Check[will|dc:17|traits:spell] save. The curse ends if the draugr is buried in a calm sea or after 1 week passes.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "curse",
+            "divine"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "4jUkeNIE92J0asLl",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "sort": 600000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "negative-healing",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "cjYLiElA3muRcJuo",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Grotesque Gift",
+      "sort": 700000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>A draugr's attacks spatter their targets with rancid flesh and rotting seaweed. A creature damaged by a draugr's Strike must succeed at a @Check[fortitude|dc:15] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "grotesque-gift",
+        "traits": {
+          "value": [
+            "olfactory"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "bS27ihuZ0Xs3mU7a",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Swipe",
+      "sort": 800000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The draugr makes a melee Strike and compares the attack roll result to the AC of up to two foes, each of whom must be within its melee reach and adjacent to each other. Roll damage only once and apply it to each creature hit. A Swipe counts as two attacks for the draugr's multiple attack penalty.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    }
+  ],
+  "name": "Draugr",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 35,
+        "temp": 0,
+        "max": 35,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 25
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fire",
+          "value": 3
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "vitality",
+          "value": 5
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "details": "(can't speak any language)"
+      },
+      "level": {
+        "value": 2
+      },
+      "blurb": "",
+      "publicNotes": "<p>Risen corpses of sailors who died at sea, draugr reek of the rot and decay of the briny deep. Their eyes glow with ghastly green light, and rotting seaweed, barnacles, and dead sea creatures cling to their bodies. Draugr can't speak, but expresses their malicious emotions with gurgles, as though they were eternally drowning with lungs full of water. They desire little more than to attack living creatures, especially those who sail the sea. Even when they go upon land, draugrs often drag the corpses of those they strike down back to the water, populating the depths with even more dead.</p>\n<p>Draugr rise in the haunted places of the sea, where restless spirits, swells of void energy, or supernatural storms deliver death. A corpse might rest at the bottom of the sea for some time before awakening as a draugr. Collecting detritus and organisms, a corpse becomes increasingly disgusting before it finally rises. Proximity to intelligent life can expedite this process, and an underwater explorer who happens upon a shipwreck might cause a body to snap to unlife as a draugr suddenly. The creatures don't take intrusions lightly, especially upon their place of death.</p>\n<p>Though steeped in evil, draugr are susceptible to reminders of their lives as mariners. In particular, a well-performed sea shanty or call-and-response work song might cause a draugr to become lost in reverie for a moment. The creatures have even been witnessed moaning along, unable to sing the words but providing haunting accompaniment. The lull rarely lasts long, though, as the beauty of the song quickly becomes a reminder of the tragedy that befell the draugr, reaffirming their desire for blood and death.</p>\n<p>More powerful draugr with burning red eyes are called draugr captains. They're 3rd-level creatures with elite adjustments that can cast obscuring mist as an innate divine spell three times per day.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Bestiary 2",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.939,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.344",
+        "system": "7.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 7,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "stealth": {
+        "base": 8
+      }
+    },
+    "traits": {
+      "value": [
+        "chaotic",
+        "evil",
+        "undead",
+        "unholy",
+        "water"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1",
+    "createdTime": 1748522045827,
+    "modifiedTime": 1749139503782,
+    "lastModifiedBy": "OGHcT2rtGjA5Jsa8",
+    "exportSource": {
+      "worldId": "blood-lords",
+      "uuid": "Actor.fNoVRGW58HyE0hHB",
+      "coreVersion": "13.344",
+      "systemId": "pf2e",
+      "systemVersion": "7.1.1"
+    }
+  },
+  "effects": [],
+  "folder": "WxXJEitNNpVhp3Wl",
+  "flags": {}
+}
