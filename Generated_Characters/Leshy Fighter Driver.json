@@ -1,0 +1,202 @@
+{
+  "name": "Leshy Fighter Driver",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "max": 30,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [],
+      "resistances": [],
+      "weaknesses": []
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "source": "",
+      "traits": {
+        "value": [
+          "fey"
+        ],
+        "rarity": "common"
+      }
+    },
+    "perception": {
+      "mod": 5,
+      "details": "",
+      "senses": [
+        {
+          "type": "low-light"
+        }
+      ],
+      "vision": true
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 11
+      },
+      "acrobatics": {
+        "base": 8
+      },
+      "intimidation": {
+        "base": 5
+      },
+      "nature": {
+        "base": 7
+      }
+    },
+    "traits": {
+      "value": [
+        "fey"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      }
+    },
+    "resources": {},
+    "actions": []
+  },
+  "items": [],
+  "prototypeToken": {
+    "name": "Leshy Fighter Driver",
+    "displayName": 20,
+    "displayBars": 20,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain"
+    },
+    "width": 1,
+    "height": 1,
+    "vision": {
+      "enabled": true,
+      "range": 30,
+      "angle": 360,
+      "visionMode": "normal",
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null,
+      "attenuation": 0.5
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "dim": 10,
+      "color": null,
+      "contrast": 0,
+      "saturation": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "shadows": 0,
+      "negative": false,
+      "attenuation": 0.5,
+      "priority": 0,
+      "luminosity": 0.5
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "disposition": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "occludable": {
+      "radius": 0
+    },
+    "detectionModes": [
+      "basic"
+    ],
+    "ring": {
+      "enabled": true,
+      "effects": 1,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "subject": {
+        "scale": 1,
+        "texture": "systems/pf2e/icons/default-icons/npc.svg"
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": true,
+    "turnMarker": {
+      "mode": 1
+    },
+    "movementAction": null
+  }
+}
