@@ -1,21 +1,20 @@
 # AsherAgent Project
 
-A powerful AI agent-based project leveraging multiple language models and automation frameworks for sophisticated task execution and interaction.
+A Python-based automation tool for generating Pathfinder 2e character sheets (especially NPCs) using OpenAI's language models. The project leverages sample JSON templates and the OpenAI API to create new, game-ready character data in JSON format.
 
 ## 🌟 Features
 
-- Integration with multiple AI models (Anthropic, OpenAI)
-- Advanced agent-based architecture using AutoGen
-- Web interaction capabilities with Playwright
-- Data processing and PDF handling
-- API integrations (Polygon, SendGrid)
-- Visualization support with Plotly
-- Wikipedia and web scraping capabilities
+- Automated generation of Pathfinder 2e NPC character sheets in JSON format
+- Uses OpenAI's GPT-4.1-mini model for content creation
+- Leverages sample character data for structure and accuracy
+- Saves generated character sheets as JSON files
+- Easily extensible for other tabletop RPG automation tasks
 
 ## 🛠️ Prerequisites
 
 - Python 3.12 or higher
 - pip or uv package manager
+- OpenAI API key
 
 ## 📦 Installation
 
@@ -35,34 +34,39 @@ uv pip install -e .
 ## 🔧 Configuration
 
 1. Create a `.env` file in the root directory
-2. Add your API keys and configuration:
+2. Add your OpenAI API key:
 ```env
-ANTHROPIC_API_KEY=your_key_here
 OPENAI_API_KEY=your_key_here
-SENDGRID_API_KEY=your_key_here
-POLYGON_API_KEY=your_key_here
 ```
+
+## 🚀 Usage
+
+Run the main script to generate a new NPC character sheet:
+
+```bash
+python main/foundry_character_agent_main.py
+```
+
+- The script will use the sample NPC JSON in `context/npc_sample.json` as a template.
+- The generated character sheet will be saved as a new JSON file named after the character.
 
 ## 📚 Project Structure
 
 ```
 AsherAgent.proj/
-├── context/         # Context and configuration files
-├── main/           # Main application code
-├── scratchProject/ # Development and testing area
-├── pyproject.toml  # Project dependencies and configuration
-└── README.md      # Project documentation
+├── context/         # Sample JSONs for PC and NPC character sheets
+├── main/            # Main application script for character generation
+├── scratchProject/  # Experimental and development scripts
+├── pyproject.toml   # Project dependencies and configuration
+└── README.md        # Project documentation
 ```
 
 ## 📝 Dependencies
 
 Key dependencies include:
-- anthropic (≥0.49.0)
-- autogen-agentchat (≥0.4.9.2)
-- langchain ecosystem
 - openai (≥1.68.2)
-- semantic-kernel (≥1.25.0)
-- Various utility libraries (requests, bs4, lxml, etc.)
+- python-dotenv (≥1.0.1)
+- Other libraries for future/optional features (see pyproject.toml)
 
 For development:
 - ipykernel (≥6.29.5)
