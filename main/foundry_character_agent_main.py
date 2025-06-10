@@ -35,9 +35,24 @@ response = openai.chat.completions.create(
     messages=[{"role": "user", "content": prompt}]
 )
 
-print(response)
 npc_character_sheet = response.choices[0].message.content
-print(npc_character_sheet)
+
+prompt = json.dumps(npc_character_sheet)
+prompt += json.dumps(npc_sample)
+prompt += """
+Deeply analyze the attached arrays. 
+npc_sample is a legal json which I am able to dump to a file and import into foundry.
+npc_character_sheet is a json whos validity I am unsure of.
+Check the validity of npc_character_sheet and fix if invalid.
+if invalid, run again, up to a maximum of 5 times.
+if valid, reply with json only. No other text, no markdown.
+"""
+
+
+response = openai.chat.completions.create(
+    model="gpt-4.1-mini",
+    messages=[{"role": "user", "content": prompt}]
+)
 
 try:
     npc_data = json.loads(npc_character_sheet)
@@ -50,4 +65,3 @@ try:
     
 except json.JSONDecodeError:
     print("Error: Invalid JSON format in response. Check API output.")
-
