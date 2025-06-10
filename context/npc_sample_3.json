@@ -1,0 +1,665 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Plague Zombie",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-tokens-bestiaries/tokens/undead/zombie-plague.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": "modules/pf2e-tokens-bestiaries/subjects/undead/zombie-plague.webp"
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": true,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "modules/pf2e-tokens-bestiaries/portraits/undead/zombie-plague.webp",
+  "items": [
+    {
+      "_id": "xe58zyk07wl19azb",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/conditions/slowed.webp",
+      "name": "Slowed",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
+        },
+        "rules": [],
+        "slug": "slowed",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "group": null,
+        "value": {
+          "isValued": true,
+          "value": 1
+        },
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "parent": null
+        },
+        "overrides": [],
+        "fromSpell": false,
+        "persistent": null
+      },
+      "type": "condition",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "tvnn3d6VCprLkoQ2",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grab",
+            "zombie-rot"
+          ]
+        },
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "ka33amlykrcrv5nq90lv": {
+            "damage": "1d8+4",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "MuiyXm8KyQF57NaW",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 300000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "zombie-rot"
+          ]
+        },
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "2rof0t3ang89c3dtvwyr": {
+            "damage": "1d12+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "<p><strong>Requirements</strong> The zombie has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "a2pZeef5wn9y5xAA",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Slow",
+      "sort": 400000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "Jcl5rz38QkHYDfHx",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "RhGXKyPEo0bWS5D1",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Zombie Rot",
+      "sort": 600000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>An infected creature can't heal damage it takes from zombie rot until it has been cured of the disease.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[void]] damage (1 day)</p>\n<p><strong>Stage 3</strong> @Damage[1d6[void]] damage (1 day)</p>\n<p><strong>Stage 4</strong> @Damage[1d6[void]] damage (1 day)</p>\n<p><strong>Stage 5</strong> dead, rising as a plague zombie immediately</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "zombie-rot",
+        "traits": {
+          "value": [
+            "disease",
+            "divine",
+            "void"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    },
+    {
+      "_id": "MRMj6jc7E8e5c7UF",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 700000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {}
+    }
+  ],
+  "name": "Plague Zombie",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 50,
+        "temp": 0,
+        "max": 50,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "vitality",
+          "value": 10
+        },
+        {
+          "type": "slashing",
+          "value": 10
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Plague zombies are infested with horrible contagions.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.939,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.344",
+        "system": "7.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": -2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 3,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 3,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 9
+      }
+    },
+    "traits": {
+      "value": [
+        "mindless",
+        "undead",
+        "unholy",
+        "zombie"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1",
+    "createdTime": 1735068090958,
+    "modifiedTime": 1749139511238,
+    "lastModifiedBy": "OGHcT2rtGjA5Jsa8",
+    "exportSource": {
+      "worldId": "blood-lords",
+      "uuid": "Actor.AUBVGskbc8xI341v",
+      "coreVersion": "13.344",
+      "systemId": "pf2e",
+      "systemVersion": "7.1.1"
+    }
+  },
+  "effects": [],
+  "folder": "WxXJEitNNpVhp3Wl",
+  "flags": {}
+}
