@@ -27,7 +27,6 @@ npc_sample = load_json_to_dict('context/npc_sample.json')
 prompt = "Create a basic undead npc enemycharacter sheet for a pathfinder 2e game,"
 prompt += "Use the following sample as a guide: "
 prompt += "Use internet searches to ensure the character sheet is accurate and complete."
-prompt += "The sheet shoul not include any of the token / art"
 prompt += "respond in JSON format only. No other text, no markdown."
 prompt += json.dumps(npc_sample)
 
@@ -48,6 +47,7 @@ Check the validity of npc_character_sheet and fix if invalid.
 if invalid, run again, up to a maximum of 5 times.
 if valid, reply with json only. No other text, no markdown.
 """
+
 
 response = openai.chat.completions.create(
     model="gpt-4.1-mini",
